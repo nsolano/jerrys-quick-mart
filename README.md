@@ -74,3 +74,34 @@ Red Bull: 7, $4.30, $4.00, Taxable
 Flour: 0, $3.10, $2.75, Tax-Exempt
 
 [...]
+
+### Solution
+
+#### Instalation
+Firstly you must download and install Python 3.10.6 on your machine according to your operating system. The download link is as follows:
+
+[Python 3.10.6](https://www.python.org/downloads/release/python-3106/).
+
+#### Virtual Environment for Python 3.10.6
+
+Subsequently, the venv package for Python 3.10.6 must be installed (For guidance refer to the link [venv](https://docs.python.org/3/library/venv.html)). For example for Debian-based distributions:
+
+`sudo apt install python3.10-venv`
+
+The virtual environment should be created using venv `python3.10 -m venv /path/to/new/virtual/environment`. For example:
+
+`python3.10 -m venv myvenv`
+
+Then the virtual environment should be set up using venv `source /path/to/directory`. For example:
+
+`source myvenv/bin/activate`
+
+#### Running the application
+Run the `main.py` to use the application
+
+#### Testing
+To run the tests use the following command:
+`python3 -m tests/test_store.py`
+
+
+

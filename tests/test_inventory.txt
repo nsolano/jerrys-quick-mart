@@ -1,0 +1,2 @@
+Milk: 5, $3.75, $3.50, Tax-Exempt
+Red Bull: 10, $4.30, $4.00, Taxable
